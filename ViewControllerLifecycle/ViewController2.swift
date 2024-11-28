@@ -27,21 +27,25 @@ class ViewController2: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("VC2 viewWillAppear Called")
+        label.text = "world"
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         print("VC2 viewDidAppear Called")
+        label.text = "Im here!!!"
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         print("VC2 viewWillDisappear Called")
+        label.text = "Bye"
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         print("VC2 viewDidDisappear Called")
+        label.text = "Goodbye"
     }
 
 }
